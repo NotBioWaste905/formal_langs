@@ -1,0 +1,15 @@
+[project]
+name = "formal-langs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.6.0",
+    "ipykernel>=6.29.5",
+    "lark>=1.2.2",
+    "nltk>=3.9.1",
+    "sentence-transformers>=4.1.0",
+    "sentencepiece>=0.2.0",
+    "transformers[torch]>=4.53.0",
+]
